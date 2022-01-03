@@ -9,17 +9,17 @@ namespace Ait.FTSock.Server.Class.Services
 {
     public class DirectoryService
     {
-        public List<Directory> Directories { get; private set; }
+        public List<FTFolder> Directories { get; private set; }
 
         public DirectoryService()
         {
-            Directories = new List<Directory>();
+            Directories = new List<FTFolder>();
         }
 
-        public void AddPath(Directory directory)
+        public void AddPath(FTFolder directory)
         {
             bool found = false;
-            foreach (Directory dir in Directories)
+            foreach (FTFolder dir in Directories)
             {
                 if (dir.Name == directory.Name)
                 {
@@ -39,7 +39,7 @@ namespace Ait.FTSock.Server.Class.Services
         }
         public void RemoveFolder(string folderName)
         {
-            foreach (Directory directory in Directories)
+            foreach (FTFolder directory in Directories)
             {
                 if (directory.Name == folderName)
                 {

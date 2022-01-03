@@ -23,3 +23,4 @@ C:\Users\dries\Source\Repos\PE2_Socket\Ait.FTSock.Server\Ait.FTSock.Server\obj\D
 C:\Users\dries\Source\Repos\PE2_Socket\Ait.FTSock.Server\Ait.FTSock.Server\obj\Debug\net5.0-windows\ref\Ait.FTSock.Server.dll
 C:\Users\dries\Source\Repos\PE2_Socket\Ait.FTSock.Server\Ait.FTSock.Server\obj\Debug\net5.0-windows\Ait.FTSock.Server.pdb
 C:\Users\dries\Source\Repos\PE2_Socket\Ait.FTSock.Server\Ait.FTSock.Server\obj\Debug\net5.0-windows\Ait.FTSock.Server.genruntimeconfig.cache
+C:\Users\dries\Source\Repos\PE2_Socket\Ait.FTSock.Server\Ait.FTSock.Server\bin\Debug\net5.0-windows\Newtonsoft.Json.dll

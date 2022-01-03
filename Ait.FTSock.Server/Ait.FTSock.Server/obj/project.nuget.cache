@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hqA/3JKBzWYnFEy39aCWaicQLZ9zNfm7CEi6N3ONN2Tt4xNBGlvG4EotXY5MYW+HP7lNm7iA1dMRaoSRErRoow==",
+  "dgSpecHash": "h1s0JRTtWLf7JpGfFWh3oNAqKWXQ/HLw3Iepxhjskrzq9gFCXTv4qfD8T3k6Q/IpbLjwbnydqlgq1W/sdR1MHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\dries\\Source\\Repos\\PE2_Socket\\Ait.FTSock.Server\\Ait.FTSock.Server\\Ait.FTSock.Server.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dries\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

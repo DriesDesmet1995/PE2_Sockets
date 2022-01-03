@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Ait.FTSock.Server.Class.Entities
 {
-    public class Directory
+    public class FTFolder
     {
         public string Name { get; set; }
         public string Path { get; set; }
-        public Directory Parent { get; set; }
+        public FTFolder Parent { get; set; }
 
-        public Directory()
+        public FTFolder()
         {
         }
 
-        public Directory(string name, string path, Directory parent)
+        public FTFolder(string name, string path, FTFolder parent)
         {
             Name = name;
             Path = path;

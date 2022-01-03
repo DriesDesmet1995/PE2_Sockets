@@ -9,17 +9,17 @@ namespace Ait.FTSock.Server.Class.Services
 {
     public class FileService
     {
-        public List<File> Files { get; private set; }
+        public List<FTFile> Files { get; private set; }
 
         public FileService()
         {
-            Files = new List<File>();
+            Files = new List<FTFile>();
         }
 
-        public void AddFile(File file)
+        public void AddFile(FTFile file)
         {
             bool found = false;
-            foreach (File f in Files)
+            foreach (FTFile f in Files)
             {
                 if (f.Name == file.Name)
                 {
@@ -40,7 +40,7 @@ namespace Ait.FTSock.Server.Class.Services
         }
         public void RemoveFile(string fileName)
         {
-            foreach (File file in Files)
+            foreach (FTFile file in Files)
             {
                 if (file.Name == fileName)
                 {

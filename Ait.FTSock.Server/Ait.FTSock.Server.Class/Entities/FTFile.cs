@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Ait.FTSock.Server.Class.Entities
 {
-    public class File
+    public class FTFile
     {
         public string Name { get; set; }
-        public Directory Directory { get; set; }
+        public FTFolder Directory { get; set; }
         public byte Size { get; set; }
         public DateTime Creation { get; set; }
 
-        public File()
+        public FTFile()
         {
         }
 
-        public File(string name, Directory directory, byte size, DateTime creation)
+        public FTFile(string name, FTFolder directory, byte size, DateTime creation)
         {
             Name = name;
             Directory = directory;
