@@ -9,6 +9,7 @@
               <xs:sequence>
                 <xs:element name="IP" type="xs:string" minOccurs="0" />
                 <xs:element name="Port" type="xs:int" minOccurs="0" />
+                <xs:element name="Path" type="xs:string" minOccurs="0" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
@@ -17,7 +18,8 @@
     </xs:element>
   </xs:schema>
   <Table1>
-    <IP>127.0.0.1</IP>
-    <Port>49206</Port>
+    <IP>192.168.1.25</IP>
+    <Port>49200</Port>
+    <Path>C:\Howest</Path>
   </Table1>
 </NewDataSet>

@@ -10,3 +10,15 @@ C:\Users\dries\Source\Repos\PE2_Socket\Ait.FTSock.Server\Ait.FTSock.Server.Class
 C:\Users\dries\Source\Repos\PE2_Socket\Ait.FTSock.Server\Ait.FTSock.Server.Class\obj\Debug\net5.0-windows\Ait.FTSock.Server.Class.dll
 C:\Users\dries\Source\Repos\PE2_Socket\Ait.FTSock.Server\Ait.FTSock.Server.Class\obj\Debug\net5.0-windows\ref\Ait.FTSock.Server.Class.dll
 C:\Users\dries\Source\Repos\PE2_Socket\Ait.FTSock.Server\Ait.FTSock.Server.Class\obj\Debug\net5.0-windows\Ait.FTSock.Server.Class.pdb
+C:\Users\dries\Source\Repos\PE2_So\Ait.FTSock.Server\Ait.FTSock.Server.Class\bin\Debug\net5.0-windows\Ait.FTSock.Server.Class.deps.json
+C:\Users\dries\Source\Repos\PE2_So\Ait.FTSock.Server\Ait.FTSock.Server.Class\bin\Debug\net5.0-windows\Ait.FTSock.Server.Class.dll
+C:\Users\dries\Source\Repos\PE2_So\Ait.FTSock.Server\Ait.FTSock.Server.Class\bin\Debug\net5.0-windows\ref\Ait.FTSock.Server.Class.dll
+C:\Users\dries\Source\Repos\PE2_So\Ait.FTSock.Server\Ait.FTSock.Server.Class\bin\Debug\net5.0-windows\Ait.FTSock.Server.Class.pdb
+C:\Users\dries\Source\Repos\PE2_So\Ait.FTSock.Server\Ait.FTSock.Server.Class\obj\Debug\net5.0-windows\Ait.FTSock.Server.Class.csproj.AssemblyReference.cache
+C:\Users\dries\Source\Repos\PE2_So\Ait.FTSock.Server\Ait.FTSock.Server.Class\obj\Debug\net5.0-windows\Ait.FTSock.Server.Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dries\Source\Repos\PE2_So\Ait.FTSock.Server\Ait.FTSock.Server.Class\obj\Debug\net5.0-windows\Ait.FTSock.Server.Class.AssemblyInfoInputs.cache
+C:\Users\dries\Source\Repos\PE2_So\Ait.FTSock.Server\Ait.FTSock.Server.Class\obj\Debug\net5.0-windows\Ait.FTSock.Server.Class.AssemblyInfo.cs
+C:\Users\dries\Source\Repos\PE2_So\Ait.FTSock.Server\Ait.FTSock.Server.Class\obj\Debug\net5.0-windows\Ait.FTSock.Server.Class.csproj.CoreCompileInputs.cache
+C:\Users\dries\Source\Repos\PE2_So\Ait.FTSock.Server\Ait.FTSock.Server.Class\obj\Debug\net5.0-windows\Ait.FTSock.Server.Class.dll
+C:\Users\dries\Source\Repos\PE2_So\Ait.FTSock.Server\Ait.FTSock.Server.Class\obj\Debug\net5.0-windows\ref\Ait.FTSock.Server.Class.dll
+C:\Users\dries\Source\Repos\PE2_So\Ait.FTSock.Server\Ait.FTSock.Server.Class\obj\Debug\net5.0-windows\Ait.FTSock.Server.Class.pdb
