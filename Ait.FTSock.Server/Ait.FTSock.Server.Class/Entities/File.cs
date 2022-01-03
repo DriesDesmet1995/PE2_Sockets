@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ait.FTSock.Server.Class.Entities
+{
+    public class File
+    {
+        public string Name { get; set; }
+        public Directory Directory { get; set; }
+        public byte Size { get; set; }
+        public DateTime Creation { get; set; }
+
+        public File()
+        {
+        }
+
+        public File(string name, Directory directory, byte size, DateTime creation)
+        {
+            Name = name;
+            Directory = directory;
+            Size = size;
+            Creation = creation;
+        }
+    }
+}
