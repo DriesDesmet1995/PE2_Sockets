@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Ait.FTSock.Server/1.0.0": {
+        "dependencies": {
+          "Ait.FTSock.Server.Class": "1.0.0"
+        },
+        "runtime": {
+          "Ait.FTSock.Server.dll": {}
+        }
+      },
+      "Ait.FTSock.Server.Class/1.0.0": {
+        "runtime": {
+          "Ait.FTSock.Server.Class.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ait.FTSock.Server/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ait.FTSock.Server.Class/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
