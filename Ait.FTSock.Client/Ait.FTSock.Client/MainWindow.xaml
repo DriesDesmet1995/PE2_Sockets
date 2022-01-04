@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Ait.FTSock.Client"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox Header="Server configuration" HorizontalAlignment="Left" Height="153" Margin="10,10,0,0" VerticalAlignment="Top" Width="770" Grid.ColumnSpan="2" >
+            <Grid HorizontalAlignment="Left" Width="770" Height="155">
+                <ComboBox x:Name="cmbIPs" FontSize="14" FontWeight="Bold" HorizontalAlignment="Left" Margin="46,10,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cmbIPs_SelectionChanged"/>
+                <Label Content="IP : " FontSize="14" FontWeight="Bold" HorizontalAlignment="Left" Height="28" Margin="10,10,0,0" VerticalAlignment="Top" Width="31"/>
+                <Label Content="Port : " FontSize="14" FontWeight="Bold" HorizontalAlignment="Left" Height="28" Margin="210,7,0,0" VerticalAlignment="Top" Width="57"/>
+                <ComboBox x:Name="cmbPorts" FontSize="14" FontWeight="Bold" HorizontalAlignment="Left" Margin="267,9,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="CmbPorts_SelectionChanged"/>
+                <Button x:Name="btnConnect" Content="CONNECT TO SERVER" Background="ForestGreen" Foreground="White" FontSize="14" FontWeight="Bold" HorizontalAlignment="Left" Margin="20,56,0,0" VerticalAlignment="Top" Height="28" Width="146" Click="btnConnect_Click"/>
+                <Label Content="My Username: " FontSize="14" FontWeight="Bold" HorizontalAlignment="Left" Height="28" Margin="434,7,0,0" VerticalAlignment="Top" Width="102"/>
+                <TextBox x:Name="txtUsername" FontSize="14" FontWeight="Bold" HorizontalAlignment="Left" Margin="541,13,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="txtUsername_SelectionChanged"/>
+
+            </Grid>
+        </GroupBox>
 
     </Grid>
 </Window>

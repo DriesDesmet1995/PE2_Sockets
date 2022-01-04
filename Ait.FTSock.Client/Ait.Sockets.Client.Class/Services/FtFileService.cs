@@ -1,4 +1,4 @@
-﻿using Ait.FTSock.Server.Class.Entities;
+﻿using Ait.FTSock.Client.Class.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Ait.Sockets.Client.Class/1.0.0": {
+        "runtime": {
+          "Ait.Sockets.Client.Class.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ait.Sockets.Client.Class/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

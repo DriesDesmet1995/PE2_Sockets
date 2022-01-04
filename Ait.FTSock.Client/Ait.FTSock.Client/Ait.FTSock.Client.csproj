@@ -6,4 +6,8 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ait.Sockets.Client.Class\Ait.Sockets.Client.Class.csproj" />
+  </ItemGroup>
+
 </Project>

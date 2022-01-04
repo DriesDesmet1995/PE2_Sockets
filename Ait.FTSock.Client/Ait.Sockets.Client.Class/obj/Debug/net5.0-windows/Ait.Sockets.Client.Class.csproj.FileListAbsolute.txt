@@ -1,0 +1,12 @@
+C:\Users\dries\Source\Repos\PE2_Sockets\Ait.FTSock.Client\Ait.Sockets.Client.Class\obj\Debug\net5.0-windows\Ait.Sockets.Client.Class.csproj.AssemblyReference.cache
+C:\Users\dries\Source\Repos\PE2_Sockets\Ait.FTSock.Client\Ait.Sockets.Client.Class\obj\Debug\net5.0-windows\Ait.Sockets.Client.Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dries\Source\Repos\PE2_Sockets\Ait.FTSock.Client\Ait.Sockets.Client.Class\obj\Debug\net5.0-windows\Ait.Sockets.Client.Class.AssemblyInfoInputs.cache
+C:\Users\dries\Source\Repos\PE2_Sockets\Ait.FTSock.Client\Ait.Sockets.Client.Class\obj\Debug\net5.0-windows\Ait.Sockets.Client.Class.AssemblyInfo.cs
+C:\Users\dries\Source\Repos\PE2_Sockets\Ait.FTSock.Client\Ait.Sockets.Client.Class\obj\Debug\net5.0-windows\Ait.Sockets.Client.Class.csproj.CoreCompileInputs.cache
+C:\Users\dries\Source\Repos\PE2_Sockets\Ait.FTSock.Client\Ait.Sockets.Client.Class\bin\Debug\net5.0-windows\Ait.Sockets.Client.Class.deps.json
+C:\Users\dries\Source\Repos\PE2_Sockets\Ait.FTSock.Client\Ait.Sockets.Client.Class\bin\Debug\net5.0-windows\Ait.Sockets.Client.Class.dll
+C:\Users\dries\Source\Repos\PE2_Sockets\Ait.FTSock.Client\Ait.Sockets.Client.Class\bin\Debug\net5.0-windows\ref\Ait.Sockets.Client.Class.dll
+C:\Users\dries\Source\Repos\PE2_Sockets\Ait.FTSock.Client\Ait.Sockets.Client.Class\bin\Debug\net5.0-windows\Ait.Sockets.Client.Class.pdb
+C:\Users\dries\Source\Repos\PE2_Sockets\Ait.FTSock.Client\Ait.Sockets.Client.Class\obj\Debug\net5.0-windows\Ait.Sockets.Client.Class.dll
+C:\Users\dries\Source\Repos\PE2_Sockets\Ait.FTSock.Client\Ait.Sockets.Client.Class\obj\Debug\net5.0-windows\ref\Ait.Sockets.Client.Class.dll
+C:\Users\dries\Source\Repos\PE2_Sockets\Ait.FTSock.Client\Ait.Sockets.Client.Class\obj\Debug\net5.0-windows\Ait.Sockets.Client.Class.pdb

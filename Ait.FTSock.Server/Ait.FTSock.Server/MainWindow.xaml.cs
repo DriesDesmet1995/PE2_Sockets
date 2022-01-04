@@ -60,6 +60,10 @@ namespace Ait.FTSock.Server
         {
             SaveConfig();
         }
+        private void txtPath_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            SaveConfig();
+        }
         private void BtnStartServer_Click(object sender, RoutedEventArgs e)
         {
             btnStartServer.Visibility = Visibility.Hidden;
@@ -273,5 +277,7 @@ namespace Ait.FTSock.Server
             AppConfig.WriteConfig(ip, port,path);
         }
         #endregion
+
+
     }
 }

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Ait.FTSock.Client/1.0.0": {
+        "dependencies": {
+          "Ait.Sockets.Client.Class": "1.0.0"
+        },
+        "runtime": {
+          "Ait.FTSock.Client.dll": {}
+        }
+      },
+      "Ait.Sockets.Client.Class/1.0.0": {
+        "runtime": {
+          "Ait.Sockets.Client.Class.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ait.FTSock.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ait.Sockets.Client.Class/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
