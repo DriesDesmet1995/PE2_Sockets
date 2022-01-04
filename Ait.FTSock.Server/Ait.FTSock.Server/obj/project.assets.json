@@ -73,11 +73,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dries\\Source\\Repos\\PE2_So\\Ait.FTSock.Server\\Ait.FTSock.Server\\Ait.FTSock.Server.csproj",
+      "projectUniqueName": "C:\\Users\\dries\\Source\\Repos\\PE2_Sockets\\Ait.FTSock.Server\\Ait.FTSock.Server\\Ait.FTSock.Server.csproj",
       "projectName": "Ait.FTSock.Server",
-      "projectPath": "C:\\Users\\dries\\Source\\Repos\\PE2_So\\Ait.FTSock.Server\\Ait.FTSock.Server\\Ait.FTSock.Server.csproj",
+      "projectPath": "C:\\Users\\dries\\Source\\Repos\\PE2_Sockets\\Ait.FTSock.Server\\Ait.FTSock.Server\\Ait.FTSock.Server.csproj",
       "packagesPath": "C:\\Users\\dries\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dries\\Source\\Repos\\PE2_So\\Ait.FTSock.Server\\Ait.FTSock.Server\\obj\\",
+      "outputPath": "C:\\Users\\dries\\Source\\Repos\\PE2_Sockets\\Ait.FTSock.Server\\Ait.FTSock.Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -97,8 +97,8 @@
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
           "projectReferences": {
-            "C:\\Users\\dries\\Source\\Repos\\PE2_So\\Ait.FTSock.Server\\Ait.FTSock.Server.Class\\Ait.FTSock.Server.Class.csproj": {
-              "projectPath": "C:\\Users\\dries\\Source\\Repos\\PE2_So\\Ait.FTSock.Server\\Ait.FTSock.Server.Class\\Ait.FTSock.Server.Class.csproj"
+            "C:\\Users\\dries\\Source\\Repos\\PE2_Sockets\\Ait.FTSock.Server\\Ait.FTSock.Server.Class\\Ait.FTSock.Server.Class.csproj": {
+              "projectPath": "C:\\Users\\dries\\Source\\Repos\\PE2_Sockets\\Ait.FTSock.Server\\Ait.FTSock.Server.Class\\Ait.FTSock.Server.Class.csproj"
             }
           }
         }

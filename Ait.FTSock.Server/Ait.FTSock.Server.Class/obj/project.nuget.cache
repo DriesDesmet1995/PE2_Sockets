@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zfCVEwRVeicuVguMQiVNKszftqnRlh0IFvwRrwiVR8ISuq68/4PaJlNjEatSNrkdfW1rCa9cfcfuPPFdhbdhxQ==",
+  "dgSpecHash": "TRlV+adRujatLxvDjIc3SnbwRe1+sBp/eu/NlU+Yxg1/6XZ2FFuWltdpb6BhMOC21ncYEQ74IxHU7Y3mKsDM+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dries\\Source\\Repos\\PE2_So\\Ait.FTSock.Server\\Ait.FTSock.Server.Class\\Ait.FTSock.Server.Class.csproj",
+  "projectFilePath": "C:\\Users\\dries\\Source\\Repos\\PE2_Sockets\\Ait.FTSock.Server\\Ait.FTSock.Server.Class\\Ait.FTSock.Server.Class.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
