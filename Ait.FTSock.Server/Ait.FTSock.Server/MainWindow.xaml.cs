@@ -33,8 +33,8 @@ namespace Ait.FTSock.Server
         }
 
         #region Global variables
-        DirectoryService directoryService;
-        FileService fileService;
+        FTFolderService directoryService;
+        FtFileService fileService;
         Socket serverSocket;
         IPEndPoint serverEndpoint;
         bool serverOnline = false;
@@ -44,8 +44,8 @@ namespace Ait.FTSock.Server
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             txtPath.Text = "C:\\Howest";
-            directoryService = new DirectoryService();
-            fileService = new FileService();
+            directoryService = new FTFolderService();
+            fileService = new FtFileService();
             StartupConfig();
         }
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -175,11 +175,11 @@ namespace Ait.FTSock.Server
                 parts = instruction.Split('|');
                 if (parts.Length != 2)
                     return "Sorry ... I don't understand you ...##EOM";
-                foreach (FTFile ftFile in fileService.Files)
+                foreach (FTFolder fTFolder in directoryService.Directories)
                 {
-                    if (ftFile.Name == parts[1])
+                    if (fTFolder.Name == parts[1])
                     {
-                        returnValue = SerializeObject(ftFile);
+                        returnValue = SerializeObject(fTFolder);
                         break;
                     }
                 }
@@ -199,8 +199,8 @@ namespace Ait.FTSock.Server
                 if (parts.Length != 2)
                     return "Sorry ... I don't understand you ...##EOM";
 
-                FTFile fTFile = JsonConvert.DeserializeObject<FTFile>(parts[1]);
-                fileService.AddFile(fTFile);
+                FTFolder fTFolder = JsonConvert.DeserializeObject<FTFolder>(parts[1]);
+                directoryService.AddPath(fTFolder);
                 returnValue = SerializeList();
                 DisplayData();
                 return returnValue + "##EOM";
@@ -208,13 +208,13 @@ namespace Ait.FTSock.Server
             return "Sorry ... I don't understand you ...##EOM";
 
         }
-        private string SerializeObject(FTFile file)
+        private string SerializeObject(FTFolder folder)
         {
-            return JsonConvert.SerializeObject(file);
+            return JsonConvert.SerializeObject(folder);
         }
         private string SerializeList()
         {
-            return JsonConvert.SerializeObject(fileService.Files);
+            return JsonConvert.SerializeObject(directoryService.Directories);
         }
         private static void DoEvents()
         {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ait.FTSock.Server.Class.Entities
+namespace Ait.FTSock.Client.Class.Entities
 {
     public class FTFolder
     {

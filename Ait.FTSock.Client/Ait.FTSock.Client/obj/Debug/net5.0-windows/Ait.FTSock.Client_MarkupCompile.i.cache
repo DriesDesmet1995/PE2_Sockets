@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\dries\source\repos\Ait.FTSock.Client\Ait.FTSock.Client\obj\Debug\net5.0-windows\
+C:\Users\dries\Source\Repos\PE2_Sockets\Ait.FTSock.Client\Ait.FTSock.Client\obj\Debug\net5.0-windows\
 Ait.FTSock.Client
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\dries\source\repos\Ait.FTSock.Client\Ait.FTSock.Client\App.xaml
+C:\Users\dries\Source\Repos\PE2_Sockets\Ait.FTSock.Client\Ait.FTSock.Client\App.xaml
 11407045341
 
 51608786560
 193-1891726104
 MainWindow.xaml;
 
-True
+False
 

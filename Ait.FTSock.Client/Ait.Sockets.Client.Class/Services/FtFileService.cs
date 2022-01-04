@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ait.FTSock.Server.Class.Services
+namespace Ait.FTSock.Client.Class.Services
 {
-    public class FileService
+    public class FtFileService
     {
         public List<FTFile> Files { get; private set; }
 
-        public FileService()
+        public FtFileService()
         {
             Files = new List<FTFile>();
         }

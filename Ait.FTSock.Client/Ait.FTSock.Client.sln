@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ait.FTSock.Client", "Ait.FTSock.Client\Ait.FTSock.Client.csproj", "{5EE88230-7C7E-48F4-B953-A9CC6A4EFBAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ait.FTSock.Client", "Ait.FTSock.Client\Ait.FTSock.Client.csproj", "{5EE88230-7C7E-48F4-B953-A9CC6A4EFBAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ait.Sockets.Client.Class", "Ait.Sockets.Client.Class\Ait.Sockets.Client.Class.csproj", "{06419C00-C037-4486-A5AC-19A5E26EEA74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5EE88230-7C7E-48F4-B953-A9CC6A4EFBAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EE88230-7C7E-48F4-B953-A9CC6A4EFBAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EE88230-7C7E-48F4-B953-A9CC6A4EFBAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06419C00-C037-4486-A5AC-19A5E26EEA74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06419C00-C037-4486-A5AC-19A5E26EEA74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06419C00-C037-4486-A5AC-19A5E26EEA74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06419C00-C037-4486-A5AC-19A5E26EEA74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,17 +1,17 @@
-﻿using Ait.FTSock.Server.Class.Entities;
+﻿using Ait.FTSock.Client.Class.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ait.FTSock.Server.Class.Services
+namespace Ait.FTSock.Client.Class.Services
 {
-    public class DirectoryService
+    public class FTFolderService
     {
         public List<FTFolder> Directories { get; private set; }
 
-        public DirectoryService()
+        public FTFolderService()
         {
             Directories = new List<FTFolder>();
         }
@@ -27,6 +27,7 @@ namespace Ait.FTSock.Server.Class.Services
                     dir.Name = directory.Name;
                     dir.Path = directory.Path;
                     dir.Parent = directory.Parent;
+                    dir.FTFiles = directory.FTFiles;
 
                     break;
                 }
